@@ -6,7 +6,7 @@ function Stories() {
   let tot=0;
   const [Stories,setStories] = useState([]);
   useEffect(()=>{
-        fetch('http://localhost:3000/stories').
+        fetch('https://instagram-backend-8y7y.onrender.com/stories').
         then((data)=> data.json()).
         then((data)=> setStories(data)).
         catch((err)=> console.log(err))
