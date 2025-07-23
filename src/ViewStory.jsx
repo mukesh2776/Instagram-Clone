@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import { useParams,Link,useNavigate} from 'react-router'
+import { useParams,Link,useNavigate} from 'react-router-dom'
 
 function ViewStory() {
   const { id,tot } = useParams();
