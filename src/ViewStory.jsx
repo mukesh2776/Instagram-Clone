@@ -7,7 +7,7 @@ function ViewStory() {
   const navigate=useNavigate();
 
   useEffect(() => {
-    fetch(`http://localhost:3000/stories/${id}`)
+    fetch(`https://instagram-backend-8y7y.onrender.com/stories/${id}`)
       .then((res) => res.json())
       .then((data) => {
         console.log(data);

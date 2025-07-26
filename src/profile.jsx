@@ -26,7 +26,7 @@ function Profile() {
     }
     const handlefollow=async(id)=>{
         axios.delete(`https://instagram-backend-8y7y.onrender.com/followers/${id}`).
-        then( setUnFollowed(!unfollowed)).
+        then(setUnFollowed(!unfollowed)).
         then(alert("Unfollowed")).catch(err=>console.log(err))
        
     }
