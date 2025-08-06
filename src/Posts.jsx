@@ -19,7 +19,7 @@ function Posts() {
                           <img className='dp rounded-circle' src={post.userProfile} alt="Profile_Pic" />
                           <h5>{post.username}</h5>
                       </div>
-                      <img className='image' src={post.imageUrl}  alt="" />
+                      <img className='image' src={`https://instagram-backend-8y7y.onrender.com/assets/${post.imageUrl}`} alt="" />
                       <div>
                         <i className="bi bi-heart"></i>
                         <i className="bi bi-chat"></i>
