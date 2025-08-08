@@ -16,7 +16,7 @@ function Posts() {
                 {posts.map((post)=> (
                   <div className='my-3' key={post.id}> 
                       <div className='d-flex'>
-                          <img className='dp rounded-circle' src={`https://instagram-backend-8y7y.onrender.com/assets/${post.userProfile} `} alt="Profile_Pic" />
+                          <img className='dp rounded-circle' src={`https://instagram-backend-8y7y.onrender.com/assets/${post.userProfile}`} alt="Profile_Pic" />
                           <h5>{post.username}</h5>
                       </div>
                       <img className='image' src={`https://instagram-backend-8y7y.onrender.com/assets/${post.imageUrl}`} alt="" />
