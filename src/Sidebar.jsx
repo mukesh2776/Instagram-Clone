@@ -6,7 +6,7 @@ function Sidebar() {
   return (
     <div className='m-3 position-fixed'>
         <div className='d-flex flex-column gap-3'>
-            <img className='logo-text' src="\src\assets\Instagram_text.png"/>
+            <img className='logo-text' src="https://instagram-backend-8y7y.onrender.com/assets/Instagram_text.png"/>
             <div><i className="bi bi-house-door-fill"></i>Home</div>
             <div><i className="bi bi-search"></i>Search</div>
             <div><i className="bi bi-compass"></i>Explore</div>
