@@ -25,7 +25,7 @@ function Stories() {
 
           }}>
             <div className='gradient-border'>
-                 <img src={story.userProfile} alt="" className='story-dp rounded-circle' />
+                 <img src={`https://instagram-backend-8y7y.onrender.com/assets/${story.userProfile} `} alt="" className='story-dp rounded-circle' />
             </div>
             <p className='text-truncate' style={{width:"50px"}}>{story.username}</p>
           </div>
