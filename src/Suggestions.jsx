@@ -26,7 +26,7 @@ function Suggestions() {
       <div className='m-4 w-85 suggestion'>
           {profile ?
           <div className='d-flex'>
-            <img className='dp rounded-circle' src={profile.userProfile} alt="Profile_Pic" />
+            <img className='dp rounded-circle' src={`https://instagram-backend-8y7y.onrender.com/assets/${profile.userProfile}`}alt="Profile_Pic" />
             <h5>{profile.username}</h5>
             <small className='ms-auto text-primary'>switch</small>
           </div>:
@@ -41,7 +41,7 @@ function Suggestions() {
               {Suggestions.map((suggestion)=>(
                 <div key={suggestion.id}>
                   <div className='d-flex'>
-                    <img className='dp rounded-circle' src={suggestion.userProfile} alt="" />
+                    <img className='dp rounded-circle' src={`https://instagram-backend-8y7y.onrender.com/assets/${suggestion.userProfile} `} alt="" />
                     <h5>{suggestion.username}</h5>
                    <a className='ms-auto text-primary suggestion-follow' onClick={()=>{handlefollow(suggestion.id,suggestion.username)}}>Follow</a>
                   </div>
